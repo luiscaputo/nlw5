@@ -1,2 +1,11 @@
 import { createConnection } from "typeorm";
-        createConnection()
+// import mysql from 'mysql'
+//         mysql.createConnection({
+//                 host: "root",
+//                 server: "localhost",
+//                 password: "",
+//                 db_name: "nlw5"
+//         })
+       
+
+
