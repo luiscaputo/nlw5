@@ -1,0 +1,8 @@
+{
+  "type":"mysql",
+  "database":"./src/database/database.sql",
+  "migrations":["./src/database/migrations/**.js"],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
