@@ -1,8 +1,16 @@
-{
-  "type":"mysql",
-  "database":"./src/database/database.sql",
-  "migrations":["./src/database/migrations/**.js"],
+
+
+[{
+  "name": "default",
+  "type": "mysql",
+  "host": "localhost",
+  "port": 5432,
+  "username": "root",
+  "password": "",
+  "database": "./src/database/database.sql",
+  "entities": ["./src/models/**/*.ts"],
+  "migrations": ["./src/database/migrations/**.js"],
   "cli": {
     "migrationsDir": "./src/database/migrations"
   }
-}
+}]
